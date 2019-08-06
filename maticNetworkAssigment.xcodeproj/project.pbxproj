@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2EC8C922F0725E00D3BC08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EC8C822F0725E00D3BC08 /* AppDelegate.swift */; };
+		1B2EC8CE22F0725E00D3BC08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2EC8CC22F0725E00D3BC08 /* Main.storyboard */; };
+		1B2EC8D122F0725E00D3BC08 /* maticNetworkAssigment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EC8CF22F0725E00D3BC08 /* maticNetworkAssigment.xcdatamodeld */; };
+		1B2EC8D622F0726000D3BC08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2EC8D422F0726000D3BC08 /* LaunchScreen.storyboard */; };
+		1B2EC8DE22F084B400D3BC08 /* LandingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EC8DD22F084B400D3BC08 /* LandingScreenViewController.swift */; };
+		1B2EC8E022F0940A00D3BC08 /* NewAccountScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EC8DF22F0940A00D3BC08 /* NewAccountScreenViewController.swift */; };
+		1B8CA19222F88B2600B22737 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8CA19122F88B2600B22737 /* File.swift */; };
+		1BA8393522F7260A00A2E768 /* ImageAlertPresenterConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA8393322F7260A00A2E768 /* ImageAlertPresenterConfig.swift */; };
+		1BA8393622F7260A00A2E768 /* ImageAlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA8393422F7260A00A2E768 /* ImageAlertPresenter.swift */; };
+		790B2BCC22F82A8E00179F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2EC8D222F0726000D3BC08 /* Assets.xcassets */; };
+		7936D02922F44FFD0017566A /* TokenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7936D02722F44FFD0017566A /* TokenTableViewCell.swift */; };
+		7936D02A22F44FFD0017566A /* TokenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7936D02822F44FFD0017566A /* TokenTableViewCell.xib */; };
+		79503CCA22F2FEF600289F54 /* SignInScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79503CC922F2FEF400289F54 /* SignInScreenViewController.swift */; };
+		79503CCC22F2FFA800289F54 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79503CCB22F2FFA800289F54 /* HomeScreenViewController.swift */; };
+		79A0480522F162CA001F140B /* KeychainFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0480422F162CA001F140B /* KeychainFacade.swift */; };
+		C8A4A660A9D1456C755A2068 /* Pods_maticNetworkAssigment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E027D91516D18169232BADA /* Pods_maticNetworkAssigment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B2EC8E422F0963A00D3BC08 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B2EC8C522F0725E00D3BC08 /* maticNetworkAssigment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maticNetworkAssigment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2EC8C822F0725E00D3BC08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B2EC8CD22F0725E00D3BC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B2EC8D022F0725E00D3BC08 /* maticNetworkAssigment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = maticNetworkAssigment.xcdatamodel; sourceTree = "<group>"; };
+		1B2EC8D222F0726000D3BC08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B2EC8D522F0726000D3BC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B2EC8D722F0726000D3BC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2EC8DD22F084B400D3BC08 /* LandingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreenViewController.swift; sourceTree = "<group>"; };
+		1B2EC8DF22F0940A00D3BC08 /* NewAccountScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountScreenViewController.swift; sourceTree = "<group>"; };
+		1B8CA19122F88B2600B22737 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		1BA8393322F7260A00A2E768 /* ImageAlertPresenterConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAlertPresenterConfig.swift; sourceTree = "<group>"; };
+		1BA8393422F7260A00A2E768 /* ImageAlertPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAlertPresenter.swift; sourceTree = "<group>"; };
+		4E027D91516D18169232BADA /* Pods_maticNetworkAssigment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maticNetworkAssigment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		780D43C23342CE4A49567CC8 /* Pods-maticNetworkAssigment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maticNetworkAssigment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-maticNetworkAssigment/Pods-maticNetworkAssigment.debug.xcconfig"; sourceTree = "<group>"; };
+		7936D02722F44FFD0017566A /* TokenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenTableViewCell.swift; sourceTree = "<group>"; };
+		7936D02822F44FFD0017566A /* TokenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TokenTableViewCell.xib; sourceTree = "<group>"; };
+		79503CC922F2FEF400289F54 /* SignInScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenViewController.swift; sourceTree = "<group>"; };
+		79503CCB22F2FFA800289F54 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		79A0480422F162CA001F140B /* KeychainFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainFacade.swift; sourceTree = "<group>"; };
+		79A0480722F1B90D001F140B /* maticNetworkAssigment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = maticNetworkAssigment.entitlements; sourceTree = "<group>"; };
+		8631B4D1D6B1504D9060EB59 /* Pods-maticNetworkAssigment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maticNetworkAssigment.release.xcconfig"; path = "Pods/Target Support Files/Pods-maticNetworkAssigment/Pods-maticNetworkAssigment.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B2EC8C222F0725E00D3BC08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A4A660A9D1456C755A2068 /* Pods_maticNetworkAssigment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2EC8BC22F0725E00D3BC08 = {
+			isa = PBXGroup;
+			children = (
+				1B2EC8C722F0725E00D3BC08 /* maticNetworkAssigment */,
+				1B2EC8C622F0725E00D3BC08 /* Products */,
+				FDA851463CA019B9827FCE59 /* Pods */,
+				B01C09FB0316B274795ECEDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B2EC8C622F0725E00D3BC08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B2EC8C522F0725E00D3BC08 /* maticNetworkAssigment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B2EC8C722F0725E00D3BC08 /* maticNetworkAssigment */ = {
+			isa = PBXGroup;
+			children = (
+				1B8CA19022F88AFC00B22737 /* Structure */,
+				1BA8393C22F7319900A2E768 /* AppDelegate */,
+				1BA8393A22F7310000A2E768 /* ViewController */,
+				1BA8393822F7309700A2E768 /* customTableViewCell */,
+				1BA8393722F7262000A2E768 /* popUpBox */,
+				1BA8393922F730D900A2E768 /* storyBoard */,
+				1BA8393B22F7314C00A2E768 /* keyChain */,
+				1B2EC8D222F0726000D3BC08 /* Assets.xcassets */,
+				1B2EC8D722F0726000D3BC08 /* Info.plist */,
+				1B2EC8CF22F0725E00D3BC08 /* maticNetworkAssigment.xcdatamodeld */,
+			);
+			path = maticNetworkAssigment;
+			sourceTree = "<group>";
+		};
+		1B8CA19022F88AFC00B22737 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				1B8CA19122F88B2600B22737 /* File.swift */,
+			);
+			name = Structure;
+			sourceTree = "<group>";
+		};
+		1BA8393722F7262000A2E768 /* popUpBox */ = {
+			isa = PBXGroup;
+			children = (
+				1BA8393322F7260A00A2E768 /* ImageAlertPresenterConfig.swift */,
+				1BA8393422F7260A00A2E768 /* ImageAlertPresenter.swift */,
+			);
+			path = popUpBox;
+			sourceTree = "<group>";
+		};
+		1BA8393822F7309700A2E768 /* customTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7936D02722F44FFD0017566A /* TokenTableViewCell.swift */,
+				7936D02822F44FFD0017566A /* TokenTableViewCell.xib */,
+			);
+			path = customTableViewCell;
+			sourceTree = "<group>";
+		};
+		1BA8393922F730D900A2E768 /* storyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1B2EC8CC22F0725E00D3BC08 /* Main.storyboard */,
+				1B2EC8D422F0726000D3BC08 /* LaunchScreen.storyboard */,
+			);
+			path = storyBoard;
+			sourceTree = "<group>";
+		};
+		1BA8393A22F7310000A2E768 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B2EC8DD22F084B400D3BC08 /* LandingScreenViewController.swift */,
+				1B2EC8DF22F0940A00D3BC08 /* NewAccountScreenViewController.swift */,
+				79503CC922F2FEF400289F54 /* SignInScreenViewController.swift */,
+				79503CCB22F2FFA800289F54 /* HomeScreenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1BA8393B22F7314C00A2E768 /* keyChain */ = {
+			isa = PBXGroup;
+			children = (
+				79A0480422F162CA001F140B /* KeychainFacade.swift */,
+				79A0480722F1B90D001F140B /* maticNetworkAssigment.entitlements */,
+			);
+			name = keyChain;
+			sourceTree = "<group>";
+		};
+		1BA8393C22F7319900A2E768 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1B2EC8C822F0725E00D3BC08 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B01C09FB0316B274795ECEDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E027D91516D18169232BADA /* Pods_maticNetworkAssigment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDA851463CA019B9827FCE59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				780D43C23342CE4A49567CC8 /* Pods-maticNetworkAssigment.debug.xcconfig */,
+				8631B4D1D6B1504D9060EB59 /* Pods-maticNetworkAssigment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B2EC8C422F0725E00D3BC08 /* maticNetworkAssigment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B2EC8DA22F0726000D3BC08 /* Build configuration list for PBXNativeTarget "maticNetworkAssigment" */;
+			buildPhases = (
+				A3D4F48E8ECAA70F1A5BB55E /* [CP] Check Pods Manifest.lock */,
+				1B2EC8C122F0725E00D3BC08 /* Sources */,
+				1B2EC8C222F0725E00D3BC08 /* Frameworks */,
+				1B2EC8C322F0725E00D3BC08 /* Resources */,
+				1B2EC8E422F0963A00D3BC08 /* Embed Frameworks */,
+				3735E008C1B54ECCE622E300 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = maticNetworkAssigment;
+			productName = maticNetworkAssigment;
+			productReference = 1B2EC8C522F0725E00D3BC08 /* maticNetworkAssigment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B2EC8BD22F0725E00D3BC08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Vinayak Tudayekar";
+				TargetAttributes = {
+					1B2EC8C422F0725E00D3BC08 = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1B2EC8C022F0725E00D3BC08 /* Build configuration list for PBXProject "maticNetworkAssigment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B2EC8BC22F0725E00D3BC08;
+			productRefGroup = 1B2EC8C622F0725E00D3BC08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B2EC8C422F0725E00D3BC08 /* maticNetworkAssigment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B2EC8C322F0725E00D3BC08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2EC8D622F0726000D3BC08 /* LaunchScreen.storyboard in Resources */,
+				1B2EC8CE22F0725E00D3BC08 /* Main.storyboard in Resources */,
+				790B2BCC22F82A8E00179F8E /* Assets.xcassets in Resources */,
+				7936D02A22F44FFD0017566A /* TokenTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3735E008C1B54ECCE622E300 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-maticNetworkAssigment/Pods-maticNetworkAssigment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-maticNetworkAssigment/Pods-maticNetworkAssigment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D4F48E8ECAA70F1A5BB55E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-maticNetworkAssigment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B2EC8C122F0725E00D3BC08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79503CCA22F2FEF600289F54 /* SignInScreenViewController.swift in Sources */,
+				1B2EC8DE22F084B400D3BC08 /* LandingScreenViewController.swift in Sources */,
+				1B2EC8E022F0940A00D3BC08 /* NewAccountScreenViewController.swift in Sources */,
+				1B2EC8D122F0725E00D3BC08 /* maticNetworkAssigment.xcdatamodeld in Sources */,
+				1B2EC8C922F0725E00D3BC08 /* AppDelegate.swift in Sources */,
+				1BA8393522F7260A00A2E768 /* ImageAlertPresenterConfig.swift in Sources */,
+				79A0480522F162CA001F140B /* KeychainFacade.swift in Sources */,
+				79503CCC22F2FFA800289F54 /* HomeScreenViewController.swift in Sources */,
+				7936D02922F44FFD0017566A /* TokenTableViewCell.swift in Sources */,
+				1B8CA19222F88B2600B22737 /* File.swift in Sources */,
+				1BA8393622F7260A00A2E768 /* ImageAlertPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B2EC8CC22F0725E00D3BC08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B2EC8CD22F0725E00D3BC08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B2EC8D422F0726000D3BC08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B2EC8D522F0726000D3BC08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B2EC8D822F0726000D3BC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B2EC8D922F0726000D3BC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B2EC8DB22F0726000D3BC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 780D43C23342CE4A49567CC8 /* Pods-maticNetworkAssigment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = maticNetworkAssigment/maticNetworkAssigment.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = maticNetworkAssigment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maticNetworkAssigment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B2EC8DC22F0726000D3BC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8631B4D1D6B1504D9060EB59 /* Pods-maticNetworkAssigment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = maticNetworkAssigment/maticNetworkAssigment.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = maticNetworkAssigment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maticNetworkAssigment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B2EC8C022F0725E00D3BC08 /* Build configuration list for PBXProject "maticNetworkAssigment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2EC8D822F0726000D3BC08 /* Debug */,
+				1B2EC8D922F0726000D3BC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B2EC8DA22F0726000D3BC08 /* Build configuration list for PBXNativeTarget "maticNetworkAssigment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2EC8DB22F0726000D3BC08 /* Debug */,
+				1B2EC8DC22F0726000D3BC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B2EC8CF22F0725E00D3BC08 /* maticNetworkAssigment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B2EC8D022F0725E00D3BC08 /* maticNetworkAssigment.xcdatamodel */,
+			);
+			currentVersion = 1B2EC8D022F0725E00D3BC08 /* maticNetworkAssigment.xcdatamodel */;
+			path = maticNetworkAssigment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B2EC8BD22F0725E00D3BC08 /* Project object */;
+}
