@@ -1,0 +1,28 @@
+PODS:
+  - Material (3.1.6):
+    - Material/Core (= 3.1.6)
+  - Material/Core (3.1.6):
+    - Motion (~> 3.1.1)
+  - Motion (3.1.1):
+    - Motion/Core (= 3.1.1)
+  - Motion/Core (3.1.1)
+  - SwiftKeychainWrapper (3.4.0)
+
+DEPENDENCIES:
+  - Material (~> 3.1.0)
+  - SwiftKeychainWrapper
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Material
+    - Motion
+    - SwiftKeychainWrapper
+
+SPEC CHECKSUMS:
+  Material: 9b30613deb1b79487eeede5e4f90cbff084311ea
+  Motion: f115b33f36cc52472a25a965daa89b3859817de0
+  SwiftKeychainWrapper: 6fc49fbf7d4a6b0772917acb0e53a1639f6078d6
+
+PODFILE CHECKSUM: a769f7dbb3884511babe33a31301f90563632322
+
+COCOAPODS: 1.5.3
